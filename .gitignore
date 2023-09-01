@@ -32,3 +32,12 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Terragrunt cache directory
+.terragrunt-cache/
+
+# Terragrunt plan output files
+*.tfplan
+
+# Terragrunt logs
+*.log
