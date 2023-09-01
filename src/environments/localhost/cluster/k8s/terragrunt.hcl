@@ -3,10 +3,10 @@ terraform {
 }
 
 include {
-    path = find_in_parent_folders()
+  path = find_in_parent_folders()
 }
 
 inputs = {
-    namespace_name = 'rara'
+    namespace_name = "rjk-test-namespace"
 }
 
